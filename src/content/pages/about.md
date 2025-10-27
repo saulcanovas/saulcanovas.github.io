@@ -1,43 +1,49 @@
 ---
-title: About
+title: Sobre mí
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: Sobre mí
+  description: Conoce más sobre la persona detrás de este sitio web y acompáñame en mi camino como programador en formación.
   image:
     src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
+    alt: Una persona trabajando frente a un ordenador
 ---
 
-![Alt text for image](/about.jpeg)
+**Nota:** Esta página “Sobre mí” está adaptada a mi perfil profesional como programador en formación, con el objetivo de mostrar mi trayectoria, intereses y valores en el mundo del desarrollo de software.
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Saúl Cánovas – Programador en formación en Alicante
 
-## Ethan Donovan - Web Developer based in Estonia
+**¡Encantado de saludarte!**  
+Soy **Saúl Cánovas**, un programador en formación apasionado por el desarrollo de aplicaciones y las soluciones digitales. Actualmente resido en **Alicante, España**, y mi meta es crecer como **desarrollador full stack**, combinando creatividad, lógica y atención al detalle para crear experiencias funcionales y atractivas.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+## Habilidades y Conocimientos
 
-## Skills and Expertise
+Me especializo en el desarrollo de aplicaciones utilizando **Java**, **C#**, **Python**, **SQL** y **JavaScript**, tanto en la parte lógica como en la gestión de datos.  
+Estoy familiarizado con entornos modernos de desarrollo y disfruto aprendiendo nuevas tecnologías que me permitan crear proyectos eficientes, bien estructurados y fáciles de mantener.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+## Innovación y Resolución de Problemas
 
-## Innovation and Problem-Solving
+Me motiva enfrentar nuevos retos y transformar ideas en soluciones reales.  
+Ya sea optimizando código, depurando errores o diseñando funcionalidades, afronto cada tarea con **organización, constancia y una actitud proactiva**.  
+Mi experiencia previa en atención al cliente me ha enseñado a escuchar, comprender necesidades y buscar siempre la mejor forma de resolver un problema.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+## Visión Global, Impacto Local
 
-## Global Perspective, Local Impact
+Vivir en Alicante me ha permitido valorar la importancia del trabajo en equipo y la adaptabilidad.  
+Creo en desarrollar soluciones que no solo sean técnicamente sólidas, sino también útiles y accesibles para las personas y empresas que las utilizan.
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+## Aprendizaje Continuo
 
-## Continuous Learning
+La tecnología evoluciona constantemente, y eso es precisamente lo que me motiva.  
+Estoy comprometido con la **formación continua**, ampliando mis conocimientos en frameworks, bases de datos y arquitectura de software, con el objetivo de convertirme en un programador full stack completo y versátil.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+## Colaboración y Comunicación
 
-## Collaboration and Communication
+Valoro la **colaboración, la empatía y la comunicación clara** en cada proyecto.  
+Me gusta trabajar junto a otros desarrolladores, diseñadores o mentores para compartir ideas, aprender y construir soluciones que aporten verdadero valor.
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+## Contacto
 
-## Get in Touch
+¿Quieres colaborar en un proyecto o simplemente charlar sobre desarrollo de software?  
+Puedes escribirme a [saulcanovas09@gmail.com](mailto:saulcanovas09@gmail.com) o conectar conmigo en [LinkedIn](https://www.linkedin.com).  
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+_La mejor parte del desarrollo es construir algo que marque la diferencia. ¡Hagámoslo juntos!_
