@@ -34,8 +34,6 @@ export type SiteConfig = {
     socialLinks?: Link[];
     hero?: Hero;
     subscribe?: Subscribe;
-    postsPerPage?: number;
-    projectsPerPage?: number;
 };
 
 const siteConfig: SiteConfig = {
@@ -89,7 +87,6 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    projectsPerPage: 8
 };
 
 export default siteConfig;
