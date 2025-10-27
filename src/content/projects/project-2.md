@@ -1,64 +1,69 @@
 ---
-title: 'TimeWarp - Travel Agency Website'
-description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
-publishDate: 'Oct 2 2023'
+title: 'Gestor de Facturación'
+description: Aplicación para gestionar facturas, clientes e inventario, diseñada para pymes y autónomos que necesitan una solución ligera y funcional.
+publishDate: 'Oct 27 2025'
 isFeatured: true
 seo:
   image:
-    src: '/project-2.jpg'
-    alt: Project preview
+    src: '/project-gestor.jpg'
+    alt: Vista previa del Gestor de Facturación
 ---
 
-![Project preview](/project-2.jpg)
+![Vista previa del proyecto](/gestor.PNG)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Este proyecto nace de una necesidad real: optimizar el flujo de trabajo de facturación y el control de stock en negocios pequeños. Puedes ver el código y el historial en GitHub: https://github.com/saulcanovas/gestorFacturacion
 
-**Project Overview:**
-TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
+## Descripción general
 
-> Working with Ethan Donovan was a game-changer for our online presence. Their innovative solutions and attention to detail turned our vision into a reality. The website not only looks fantastic but also functions seamlessly. A true professional who exceeded our expectations!
+Desarrollé un gestor de facturación que centraliza la creación y envío de facturas, la gestión de clientes y el control de inventario. La interfaz está pensada para ser clara y rápida: acceso a facturas recientes, fichas de cliente con historial y un panel de inventario con alertas de stock mínimo.
 
-## Objectives
+## Objetivos
 
-1. Create a visually stunning and user-friendly website that captures the essence of time travel.
-2. Integrate interactive elements to engage users and make the experience memorable.
-3. Develop a responsive design to ensure a seamless user experience across various devices.
+1. Permitir emitir facturas y presupuestos de forma ágil.  
+2. Mantener un registro ordenado de clientes y sus transacciones.  
+3. Controlar el inventario con movimientos de entrada y salida.  
+4. Facilitar la exportación de información (CSV/PDF) y la integración con herramientas contables.
 
-## Features
+## Funcionalidades principales
 
-1. **Dynamic Destination Timelines:**
+1. **Facturación**
+   - Crear, editar y duplicar facturas y presupuestos.
+   - Generación automática de numeración y cálculo de impuestos.
+   - Exportación a PDF y envío por correo desde la propia interfaz.
 
-- Users can explore destinations through dynamic timelines, showcasing significant historical events, cultural developments, and architectural milestones.
-- Interactive sliders allow users to navigate through different eras, providing a visual representation of the historical evolution of each location.
+2. **Gestión de clientes**
+   - Fichas con datos fiscales, direcciones y contactos.
+   - Historial de facturas y presupuestos por cliente.
+   - Búsqueda y filtros rápidos para localizar registros.
 
-2. **Interactive Historical Events:**
+3. **Inventario**
+   - Listado de productos con precios, códigos y cantidades.
+   - Movimientos de stock (entradas/salidas) asociados a facturas.
+   - Alertas automáticas cuando el stock baja de un umbral definido.
 
-- Users can click on specific points in the timeline to reveal detailed information about key historical events related to the chosen destination.
-- Rich multimedia content, including images, videos, and articles, provides a comprehensive understanding of each event.
+4. **Reportes y exportación**
+   - Informes de ventas por periodo, clientes más activos y productos más vendidos.
+   - Exportación en CSV para conciliación contable o análisis externo.
 
-3. **Personalized Time Travel Planner:**
+5. **Roles y permisos (básico)**
+   - Usuario administrador y usuarios operativos con permisos limitados.
+   - Registro de actividad para auditoría básica.
 
-- A personalized planner feature enables users to create their time travel itineraries by selecting specific eras and destinations.
-- The system suggests thematic experiences, such as attending historical events or meeting famous personalities.
+## Tecnología utilizada
 
-4. **Time-Port Virtual Reality Experience:**
+- **Backend:** Node.js con Express (API REST).  
+- **Base de datos:** PostgreSQL para datos transaccionales.  
+- **Frontend:** HTML/CSS + JavaScript con plantillas (interfaz ligera y sin dependencias pesadas).  
+- **Autenticación:** Sesiones gestionadas desde el servidor.  
+- **Utilidades:** Generación de PDFs (server-side), exportación CSV y validaciones en formularios.
 
-- For an extra layer of immersion, users can opt for the Time-Port VR experience, allowing them to virtually step into different time periods and explore the surroundings in 360 degrees.
+> En el repositorio verás la estructura del proyecto, scripts de migración y ejemplos de datos para pruebas: https://github.com/saulcanovas/gestorFacturacion
 
-5. **Chronicle Explorer Blog:**
+## Resultado
 
-- A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
-- Users can engage with the content, comment, and share their own historical insights.
+La herramienta permite a pymes y autónomos llevar la facturación diaria sin necesidad de soluciones complejas. Tras las primeras pruebas con usuarios, se redujo el tiempo de emisión de facturas y mejoró el control del inventario, lo que facilitó la gestión administrativa del negocio.
 
-## Technology Stack
+## Comentario personal
 
-- **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
-- **Backend:** Node.js for handling server-side logic and API integration.
-- **Database:** MongoDB for efficient storage and retrieval of historical data.
-- **VR Integration:** A-Frame framework for creating immersive virtual reality experiences.
+Fue un proyecto muy práctico: me obligó a pensar en flujos reales de trabajo (errores comunes, usabilidad en pantallas pequeñas y procesos de exportación). Lo mantengo actualizado en el repositorio y lo uso como base para futuras mejoras.
 
-## Outcome
-
-The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
