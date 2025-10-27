@@ -10,56 +10,52 @@ seo:
 
 ![Vista previa del proyecto](/webGranado.PNG)
 
-**Nota:** Este proyecto fue creado como práctica personal para aprender los fundamentos del desarrollo web utilizando solo lenguaje de marcas (HTML y CSS).
+**Nota:** Este proyecto es personal y fue creado para practicar los fundamentos del desarrollo web utilizando HTML y CSS. Puedes verlo en [GitHub](https://github.com/saulcanovas/Web-grando-espada).
 
 ---
 
-## 🧠 Descripción General
+## Descripción General
 
-“Mi Primera Página Web” es un sitio estático que presenta información básica sobre el autor, una pequeña galería de imágenes y una sección de contacto.  
-El objetivo principal fue aprender a estructurar una página web correctamente, aplicar estilos con CSS y entender cómo funcionan los elementos fundamentales del diseño web.
-
----
-
-## 🎯 Objetivos
-
-1. Aprender a usar correctamente las etiquetas HTML para estructurar una página.  
-2. Aplicar estilos visuales con CSS sin utilizar frameworks.  
-3. Crear un diseño limpio y responsivo con lo aprendido.  
-4. Desarrollar un proyecto funcional para incluir en el portafolio.
+Este proyecto consiste en una web sencilla que presenta información personal, una galería de imágenes y un formulario de contacto básico.  
+El objetivo era aprender a estructurar correctamente una página web y aplicar estilos con CSS de manera funcional.
 
 ---
 
-## ⚙️ Estructura del Proyecto
+## Objetivos
 
-- **Inicio:** Presentación breve y menú de navegación.  
-- **Sobre mí:** Información personal y una lista de intereses.  
-- **Galería:** Imágenes organizadas con `flexbox`.  
-- **Contacto:** Un formulario básico con campos de texto y correo.
-
----
-
-## 🧩 Tecnologías Utilizadas
-
-- **HTML5:** para la estructura y contenido.  
-- **CSS3:** para el diseño visual y la organización de los elementos.  
-- **Visual Studio Code:** como entorno de desarrollo.  
-- **GitHub Pages:** para publicar la web.
+1. Dominar la estructura básica de HTML y la organización de etiquetas.  
+2. Aplicar estilos con CSS y comprender la relación entre HTML y CSS.  
+3. Crear un diseño simple, limpio y responsivo.  
+4. Generar un proyecto funcional para mi portafolio.
 
 ---
 
-## 📈 Resultado
+## Estructura del Proyecto
 
-El proyecto permitió comprender los conceptos básicos del desarrollo web estático.  
-A través de esta práctica, aprendí cómo conectar secciones mediante enlaces, aplicar estilos coherentes y mantener una estructura clara del código.  
-Además, me familiaricé con el flujo de trabajo de creación y despliegue en GitHub Pages.
-
----
-
-## 💬 Testimonio
-
-> Este proyecto me ayudó a ganar confianza en el uso de HTML y CSS. Pude ver cómo pequeñas líneas de código se convierten en algo visual y funcional. Es mi primer paso hacia convertirme en desarrollador web.
+- **Inicio:** Presenta una breve introducción y menú de navegación.  
+- **Sobre mí:** Información personal y lista de intereses.  
+- **Galería:** Imágenes organizadas con `flexbox` para practicar diseño.  
+- **Contacto:** Formulario básico con campos de texto y correo electrónico.
 
 ---
 
-**Nota:** Este caso práctico está basado en un proyecto real de aprendizaje personal y representa el inicio de mi camino en el desarrollo web.
+## Tecnologías Utilizadas
+
+- **HTML5** para la estructura y el contenido.  
+- **CSS3** para el diseño visual y los estilos.  
+- **Visual Studio Code** como editor de código.  
+- **GitHub Pages** para publicar la web.
+
+---
+
+## Resultado
+
+Este proyecto me permitió comprender cómo funcionan las páginas web estáticas y cómo organizar el contenido correctamente.  
+Aprendí a conectar secciones mediante enlaces internos, a aplicar estilos coherentes y a publicar mi web en línea para compartirla fácilmente.
+
+---
+
+## Testimonio
+
+> Este proyecto fue mi primer acercamiento real al desarrollo web. Me ayudó a entender la importancia de la estructura y los estilos, y me dio confianza para seguir aprendiendo y crear proyectos más complejos.
+
