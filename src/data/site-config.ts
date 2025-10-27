@@ -80,10 +80,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Sobre mí,
-        text: "Soy Saúl Cánovas, programador en formación con experiencia en desarrollo de aplicaciones y un fuerte interés por convertirme en desarrollador full stack.
-                Me apasiona aprender nuevas tecnologías y trabajar en proyectos que supongan un reto.
-                Gracias a mi experiencia previa en atención al cliente y gestión, aporto organización, empatía y capacidad para resolver problemas de forma eficaz.
-                Busco seguir creciendo en el mundo del desarrollo de software y contribuir con soluciones que generen valor real.",
+        text: "Soy Saúl Cánovas, programador en formación con experiencia en desarrollo de aplicaciones y un fuerte interés por convertirme en desarrollador full stack. Me apasiona aprender nuevas tecnologías y trabajar en proyectos que supongan un reto. Gracias a mi experiencia previa en atención al cliente y gestión, aporto organización, empatía y capacidad para resolver problemas de forma eficaz. Busco seguir creciendo en el mundo del desarrollo de software y contribuir con soluciones que generen valor real.",
         
         actions: [
             {
