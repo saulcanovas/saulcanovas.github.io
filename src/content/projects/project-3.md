@@ -1,64 +1,70 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'Gestor de Tienda de Cómics'
+description: Aplicación para gestionar una tienda de cómics, con control de facturas, clientes, inventario de cómics y precios, diseñada para simplificar la administración diaria.
+publishDate: 'Oct 27 2025'
 isFeatured: true
 seo:
   image:
-    src: '/project-3.jpg'
+    src: '/project-comics.jpg'
+    alt: Vista previa del Gestor de Tienda de Cómics
 ---
 
-![Project preview](/project-3.jpg)
+![Vista previa del proyecto](/comic.PNG)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Este proyecto fue desarrollado para gestionar de forma eficiente una tienda de cómics, centralizando clientes, ventas y el inventario de productos. El código completo está disponible en GitHub: https://github.com/saulcanovas/gestorTiendaDeComics
 
-**Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
+## Descripción general
 
-## Objectives
+El gestor permite llevar el control de facturas, clientes y productos, incluyendo información de editoriales y precios. La interfaz está pensada para que cualquier empleado pueda acceder rápidamente a la información necesaria, crear ventas y actualizar inventario sin complicaciones.
 
-1. Develop a user-friendly mobile app that utilizes AI to provide personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients.
-2. Create an interactive cooking guide that assists users with step-by-step instructions, cooking tips, and real-time assistance.
-3. Implement a smart learning system that refines recommendations over time, adapting to users' taste preferences and dietary changes.
+## Objetivos
 
-## Features
+1. Facilitar la gestión de clientes y facturas en la tienda de cómics.  
+2. Mantener un inventario actualizado con editoriales, títulos y precios.  
+3. Ofrecer reportes rápidos de ventas y stock para tomar decisiones.  
+4. Permitir exportar datos y mantener un registro histórico de operaciones.
 
-1. **AI-Powered Recipe Recommendations:**
+## Funcionalidades principales
 
-- RoboChef analyzes users' taste preferences, dietary restrictions, and ingredient availability to suggest personalized recipes.
-- Machine learning algorithms continuously learn from user interactions, refining recommendations for an increasingly tailored experience.
+1. **Facturación y ventas**
+   - Creación y edición de facturas para clientes.  
+   - Cálculo automático de precios y totales.  
+   - Registro de ventas por cliente y por fecha.  
 
-2. **Ingredient Scanner and Inventory Management:**
+2. **Gestión de clientes**
+   - Fichas de clientes con datos de contacto y compras previas.  
+   - Historial completo de facturas asociadas.  
+   - Búsqueda rápida y filtros para encontrar clientes específicos.  
 
-- Users can scan their pantry and refrigerator using the app's built-in ingredient scanner.
-- RoboChef provides recipe suggestions based on available ingredients and helps users manage their inventory by suggesting recipes that utilize soon-to-expire items.
+3. **Inventario de cómics**
+   - Listado de cómics con título, editorial, precio y stock.  
+   - Movimientos de stock asociados a ventas o ingresos.  
+   - Alertas de bajo stock para reposición.  
 
-3. **Step-by-Step Cooking Guide:**
+4. **Reportes y análisis**
+   - Ventas totales por cliente o periodo.  
+   - Inventario actual y valor total del stock.  
+   - Exportación de datos a CSV para control contable o análisis externo.  
 
-- Each recipe includes a detailed step-by-step cooking guide with interactive multimedia elements.
-- Users can watch video tutorials, view images, and receive real-time tips from RoboChef as they progress through each cooking stage.
+5. **Administración y seguridad**
+   - Diferentes roles de usuario (administrador y empleados).  
+   - Registro de actividad básica para seguimiento de operaciones.  
 
-4. **Nutritional Insights and Meal Planning:**
+## Tecnología utilizada
 
-- RoboChef provides nutritional information for each recipe, helping users make informed decisions about their meals.
-- The app offers meal planning features, allowing users to create weekly menus based on dietary goals and preferences.
+- **Backend:** Node.js con Express para manejar la lógica y API REST.  
+- **Base de datos:** PostgreSQL para clientes, facturas e inventario.  
+- **Frontend:** HTML, CSS y JavaScript para una interfaz ligera y funcional.  
+- **Exportación de datos:** CSV y PDF para reportes y facturas.  
+- **Autenticación:** Sistema de sesiones gestionadas desde el servidor.  
 
-5. **Voice-Activated Assistance:**
+> Toda la estructura y ejemplos de datos están disponibles en el repositorio: https://github.com/saulcanovas/gestorTiendaDeComics
 
-- Users can interact with RoboChef using voice commands for a hands-free cooking experience.
-- The AI assistant responds to queries, provides cooking tips, and adapts recipes based on user preferences.
+## Resultado
 
-## Technology Stack
+El gestor simplifica la administración de la tienda, permitiendo un control completo de las ventas, clientes y productos. Los empleados pueden emitir facturas, consultar stock y mantener actualizado el inventario sin complicaciones.  
+El sistema también permite generar reportes de ventas y stock, facilitando la toma de decisiones sobre reposiciones y promociones.
 
-- Frontend: Flutter for a seamless cross-platform mobile app experience.
-- Backend: Django for handling server-side logic and API integration.
-- Database: PostgreSQL for efficient data storage and retrieval.
-- AI Integration: TensorFlow for machine learning models powering recipe recommendations.
+## Comentario personal
 
-> Ethan Donovan possesses a rare blend of technical expertise and creative flair. They skillfully transformed our vague ideas into a visually stunning and highly functional website. The end result exceeded our expectations, and we continue to receive compliments on the design and user experience.
-
-## Outcome
-
-RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Este proyecto me permitió aplicar buenas prácticas de desarrollo de aplicaciones de gestión y aprender a diseñar flujos de trabajo claros para un negocio real. La experiencia fue muy valiosa para comprender cómo organizar datos y crear una interfaz útil para usuarios finales.
