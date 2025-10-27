@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
     title: 'Saúl Cánovas',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: 'Portfolio',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     
     headerNavLinks: [
@@ -79,25 +79,19 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        title: 'Sobre mí,
+        text: "Soy Saúl Cánovas, programador en formación con experiencia en desarrollo de aplicaciones y un fuerte interés por convertirme en desarrollador full stack.
+                Me apasiona aprender nuevas tecnologías y trabajar en proyectos que supongan un reto.
+                Gracias a mi experiencia previa en atención al cliente y gestión, aporto organización, empatía y capacidad para resolver problemas de forma eficaz.
+                Busco seguir creciendo en el mundo del desarrollo de software y contribuir con soluciones que generen valor real.",
+        
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Contáctame',
                 href: '/contact'
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
     projectsPerPage: 8
 };
 
