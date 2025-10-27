@@ -17,6 +17,15 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
+
+    <div class="flex justify-center my-12">
+        <img 
+            src="qr-code.png" 
+            alt="Saúl Cánovas" 
+            class="rounded-full w-48 h-48 shadow-lg"
+        />
+    </div>
+
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
