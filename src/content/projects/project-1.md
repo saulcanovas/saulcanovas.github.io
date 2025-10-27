@@ -1,66 +1,65 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'Mi Primera Página Web'
+description: Mi Primera Página Web es un proyecto introductorio desarrollado con HTML y CSS. Este sitio fue creado para practicar los conceptos básicos de estructura, etiquetas, estilos y organización de contenido en la web.
+publishDate: 'Mar 10 2025'
 seo:
   image:
-    src: '/project-1.jpg'
-    alt: Project preview
+    src: '/project-html.jpg'
+    alt: Vista previa del proyecto
 ---
 
-![Project preview](/project-1.jpg)
+![Vista previa del proyecto](/webGranado.PNG)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este proyecto fue creado como práctica personal para aprender los fundamentos del desarrollo web utilizando solo lenguaje de marcas (HTML y CSS).
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+---
 
-## Objectives
+## 🧠 Descripción General
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+“Mi Primera Página Web” es un sitio estático que presenta información básica sobre el autor, una pequeña galería de imágenes y una sección de contacto.  
+El objetivo principal fue aprender a estructurar una página web correctamente, aplicar estilos con CSS y entender cómo funcionan los elementos fundamentales del diseño web.
 
-## Features
+---
 
-1. **EcoScore and Challenges:**
+## 🎯 Objetivos
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+1. Aprender a usar correctamente las etiquetas HTML para estructurar una página.  
+2. Aplicar estilos visuales con CSS sin utilizar frameworks.  
+3. Crear un diseño limpio y responsivo con lo aprendido.  
+4. Desarrollar un proyecto funcional para incluir en el portafolio.
 
-2. **Personalized Eco-Goals:**
+---
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+## ⚙️ Estructura del Proyecto
 
-3. **Green Rewards Marketplace:**
+- **Inicio:** Presentación breve y menú de navegación.  
+- **Sobre mí:** Información personal y una lista de intereses.  
+- **Galería:** Imágenes organizadas con `flexbox`.  
+- **Contacto:** Un formulario básico con campos de texto y correo.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+---
 
-4. **Community Hub:**
+## 🧩 Tecnologías Utilizadas
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+- **HTML5:** para la estructura y contenido.  
+- **CSS3:** para el diseño visual y la organización de los elementos.  
+- **Visual Studio Code:** como entorno de desarrollo.  
+- **GitHub Pages:** para publicar la web.
 
-5. **EcoEducator AI Assistant:**
+---
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+## 📈 Resultado
 
-## Technology Stack
+El proyecto permitió comprender los conceptos básicos del desarrollo web estático.  
+A través de esta práctica, aprendí cómo conectar secciones mediante enlaces, aplicar estilos coherentes y mantener una estructura clara del código.  
+Además, me familiaricé con el flujo de trabajo de creación y despliegue en GitHub Pages.
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+---
 
-## Outcome
+## 💬 Testimonio
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+> Este proyecto me ayudó a ganar confianza en el uso de HTML y CSS. Pude ver cómo pequeñas líneas de código se convierten en algo visual y funcional. Es mi primer paso hacia convertirme en desarrollador web.
 
-## Client Testimonial
+---
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este caso práctico está basado en un proyecto real de aprendizaje personal y representa el inicio de mi camino en el desarrollo web.
