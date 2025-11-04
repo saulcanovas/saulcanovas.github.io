@@ -16,22 +16,25 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
-    <Hero />
+  <Hero />
 
-    <div class="flex justify-center my-12">
-        <h2>Curriculum vitae</h2><br />
-        <img 
-            src="qr-code.png" 
-            alt="Saúl Cánovas" 
-            class="max-w-[50%] h-auto" 
-            style="image-rendering: pixelated;"
-        /><br />
-        <h2>Elevator pitch</h2><br />
-        <img 
-            src="qr-code-elevator.png" 
-            alt="Saúl Cánovas" 
-            class="max-w-[50%] h-auto" 
-            style="image-rendering: pixelated;"
-        />
-    </div>
+  <div class="flex flex-col items-center my-12 text-center">
+    <h2 class="text-2xl font-bold mb-4">Curriculum vitae</h2>
+
+    <img 
+      src="qr-code.png" 
+      alt="Saúl Cánovas" 
+      class="max-w-[50%] h-auto mb-8" 
+      style="image-rendering: pixelated;"
+    />
+
+    <h2 class="text-2xl font-bold mb-4">Elevator pitch</h2>
+
+    <img 
+      src="qr-code-elevator.png" 
+      alt="Saúl Cánovas" 
+      class="max-w-[50%] h-auto" 
+      style="image-rendering: pixelated;"
+    />
+  </div>
 </BaseLayout>
